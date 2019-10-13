@@ -1,13 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-import AppLayout from "./components/AppLayout"
+import './css/App.css';
+import MainContainer from "./containers/MainContainer"
 
 function App({Component}) {
   return (
-      <AppLayout>
-        <Component />
-      </AppLayout>
+      <MainContainer/>
   );
 }
 

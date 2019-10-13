@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import {Link} from "react-router-dom"
 
-const AppLayout = ({ children }) => {
+export default () => {
   return (
       <div id="header">
         <div className="container">
@@ -22,6 +22,5 @@ const AppLayout = ({ children }) => {
 
         </div>
       </div>
-  );
-};
-export default AppLayout;
+  )
+}
